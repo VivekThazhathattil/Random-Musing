@@ -1,9 +1,10 @@
 #include <SFML/Graphics.hpp>
 #include "creature.h"
 #include <vector>
+
 class Env{
 	private:
-		std::vector<Creature> creatures;
+		std::vector<Creature> m_creatures;
 	public:
 		Env();
 		~Env();

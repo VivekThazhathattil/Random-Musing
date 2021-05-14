@@ -1,8 +1,8 @@
 #include <vector>
 #include "neuron.h"
-Network{
+class Network{
 	private:
-		stdD::vector<Neuron> neurons;
+		std::vector<Neuron> m_neurons;
 	public:	
 		Network();
 		~Network();

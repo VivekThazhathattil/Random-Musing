@@ -3,11 +3,11 @@
 Env::Env() {}
 Env::~Env() {}
 void Env::addCreatureToEnv() {
-	creature.push_back(Creature());
+	m_creatures.push_back(Creature());
 }
 void Env::removeCreatureFromEnv(const unsigned &creatureIdx) {
-	creatures.erease(vec.begin() + creatureIdx);
+	m_creatures.erase(m_creatures.begin() + creatureIdx);
 }
 void Env::removeAllCreaturesFromEnv(){
-	creatures.clear();
+	m_creatures.clear();
 }
